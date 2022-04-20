@@ -14,7 +14,7 @@ func NewJobService(service mock.WorkService) *JobService {
 	}
 }
 
-
+//
 func (s *JobService) Run(name string) string{
 
 	job := s.workService.WorkStart(name)
